@@ -5,7 +5,7 @@
 	(uuid "3847996a-ac9c-4544-b9d3-a55cb82580af")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x03_Socket"
+		(symbol "Connector:Conn_01x06_Socket"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -14,15 +14,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 5.08 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x03_Socket"
-				(at 0 -5.08 0)
+			(property "Value" "Conn_01x06_Socket"
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -47,7 +47,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x03, script generated"
+			(property "Description" "Generic connector, single row, 01x06, script generated"
 				(at 0 0 0)
 				(effects
 					(font
@@ -82,7 +82,19 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x03_Socket_1_1"
+			(symbol "Conn_01x06_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -0.508 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy -1.27 2.54) (xy -0.508 2.54)
@@ -111,6 +123,42 @@
 					(pts
 						(xy -1.27 -2.54) (xy -0.508 -2.54)
 					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -0.508 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -7.62) (xy -0.508 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 4.572)
+					(mid -0.5058 5.08)
+					(end 0 5.588)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -155,8 +203,32 @@
 						(type none)
 					)
 				)
+				(arc
+					(start 0 -5.588)
+					(mid -0.5058 -5.08)
+					(end 0 -4.572)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -8.128)
+					(mid -0.5058 -7.62)
+					(end 0 -7.112)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -174,7 +246,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -192,7 +264,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -202,6 +274,212 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic_MountingPin:Conn_01x01_MountingPin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_MountingPin"
+				(at 1.27 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connectable mounting pin connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_MountingPin_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -2.032) (xy 1.016 -2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -1.651 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2103,6 +2381,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 40.64) (xy 157.48 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09a00d88-86bf-4bc3-b64a-74a97465de45")
+	)
+	(wire
+		(pts
 			(xy 92.71 109.22) (xy 92.71 110.49)
 		)
 		(stroke
@@ -2123,23 +2411,13 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 63.5) (xy 170.18 63.5)
+			(xy 154.94 48.26) (xy 157.48 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "20ace67e-fd55-4721-9d9b-62a81a73ecd5")
-	)
-	(wire
-		(pts
-			(xy 161.29 81.28) (xy 170.18 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "215712ea-faf8-4e59-bd71-25541e5fc232")
+		(uuid "1d35d5b0-0460-4805-86ce-a30cb4ec4de0")
 	)
 	(wire
 		(pts
@@ -2160,16 +2438,6 @@
 			(type default)
 		)
 		(uuid "2bfd9638-bc86-42e7-9ee5-764f1b097f1e")
-	)
-	(wire
-		(pts
-			(xy 167.64 60.96) (xy 170.18 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "320fbffd-ddca-4e9c-9b8e-ab65e3d54b74")
 	)
 	(wire
 		(pts
@@ -2213,16 +2481,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 27.94) (xy 170.18 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40c71cf0-08c2-4d61-b282-1072fdf2daaf")
-	)
-	(wire
-		(pts
 			(xy 250.19 77.47) (xy 261.62 77.47)
 		)
 		(stroke
@@ -2263,6 +2521,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 38.1) (xy 157.48 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b66f37c-78fb-4447-a417-41ad0f0c1fb5")
+	)
+	(wire
+		(pts
 			(xy 92.71 116.84) (xy 92.71 114.3)
 		)
 		(stroke
@@ -2270,16 +2538,6 @@
 			(type default)
 		)
 		(uuid "5c58d60e-2ed3-4547-9b85-be63104b0ad2")
-	)
-	(wire
-		(pts
-			(xy 167.64 41.91) (xy 170.18 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ceddae0-40b5-46bb-afac-d496ce077a44")
 	)
 	(wire
 		(pts
@@ -2323,6 +2581,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 45.72) (xy 157.48 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "628e19a6-e2cd-4629-aaf8-d5366e36aecb")
+	)
+	(wire
+		(pts
 			(xy 80.01 114.3) (xy 88.9 114.3)
 		)
 		(stroke
@@ -2343,16 +2611,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 83.82) (xy 170.18 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "742e9006-a412-4336-a7a8-fe58b4114e0e")
-	)
-	(wire
-		(pts
 			(xy 228.6 96.52) (xy 228.6 99.06)
 		)
 		(stroke
@@ -2360,16 +2618,6 @@
 			(type default)
 		)
 		(uuid "74afb976-4720-48e9-af7a-853e86285331")
-	)
-	(wire
-		(pts
-			(xy 170.18 66.04) (xy 170.18 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75081d9e-00b1-4516-aef1-295a63c598a5")
 	)
 	(wire
 		(pts
@@ -2413,16 +2661,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 30.48) (xy 170.18 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "946f2070-4bc1-4ac4-a971-05749b526fc4")
-	)
-	(wire
-		(pts
 			(xy 261.62 87.63) (xy 275.59 87.63)
 		)
 		(stroke
@@ -2460,6 +2698,16 @@
 			(type default)
 		)
 		(uuid "a3e470a9-b034-4c81-9826-f4e88b8c95ba")
+	)
+	(wire
+		(pts
+			(xy 154.94 43.18) (xy 157.48 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4abd649-06bb-4903-a540-6f3097a5c16b")
 	)
 	(wire
 		(pts
@@ -2573,26 +2821,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 44.45) (xy 170.18 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc17d9c7-1d39-4009-8fec-a900080ded11")
-	)
-	(wire
-		(pts
-			(xy 167.64 25.4) (xy 170.18 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d100fa50-c200-4717-b5c3-c55262800462")
-	)
-	(wire
-		(pts
 			(xy 133.35 116.84) (xy 144.78 116.84)
 		)
 		(stroke
@@ -2613,23 +2841,13 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 78.74) (xy 170.18 78.74)
+			(xy 72.39 87.63) (xy 72.39 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e89636bc-eba6-43df-98ba-3d364ca3291b")
-	)
-	(wire
-		(pts
-			(xy 170.18 46.99) (xy 170.18 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb4473e2-3fd0-445d-a50d-3ebdb0114fe7")
+		(uuid "e47b6fd1-fc79-42a0-a61e-646ac4277fe3")
 	)
 	(wire
 		(pts
@@ -2650,6 +2868,16 @@
 			(type default)
 		)
 		(uuid "ee37b323-7152-4972-b8cc-3eddaed127f6")
+	)
+	(wire
+		(pts
+			(xy 142.24 35.56) (xy 157.48 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f258060b-bf24-43f4-b42a-3cabf9afeaae")
 	)
 	(wire
 		(pts
@@ -2682,16 +2910,6 @@
 		(uuid "04f8cc85-6c24-43f3-a81d-bf559461b34b")
 	)
 	(label "D10"
-		(at 167.64 78.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0947de17-62c4-4403-8dce-26764f4abdb5")
-	)
-	(label "D10"
 		(at 54.61 41.91 180)
 		(effects
 			(font
@@ -2721,15 +2939,35 @@
 		)
 		(uuid "5d96a774-98e0-4f6a-ad90-4448c3f2a87e")
 	)
-	(label "D5"
-		(at 167.64 25.4 180)
+	(label "D6"
+		(at 154.94 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "719ac223-e378-4d3b-a7d5-4d7cfe526513")
+		(uuid "6c9947c1-9e84-438e-87c1-05cdfbf42839")
+	)
+	(label "D9"
+		(at 154.94 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7d563ca5-15e1-46f5-b416-521d3b20b1e3")
+	)
+	(label "+3.3V"
+		(at 142.24 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e0049a9-0774-4dc4-b372-333a60ffb118")
 	)
 	(label "SDA"
 		(at 144.78 111.76 0)
@@ -2751,25 +2989,25 @@
 		)
 		(uuid "978cf605-a5df-47f8-972e-2eabe2271fbd")
 	)
-	(label "D9"
-		(at 167.64 60.96 180)
+	(label "D10"
+		(at 154.94 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "a122bd88-b5e6-47a3-94b8-07a1d6c226f8")
+		(uuid "a17a5b33-10fd-4b99-96ec-d708755b320b")
 	)
-	(label "D6"
-		(at 167.64 41.91 180)
+	(label "D5"
+		(at 154.94 40.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "bb4d2503-6c67-4cef-92c6-3ccba0bd0c77")
+		(uuid "b72d412c-ae56-45d6-b9eb-4670be1a357a")
 	)
 	(label "+3.3V"
 		(at 133.35 128.27 180)
@@ -2832,17 +3070,17 @@
 		(uuid "f3d6aab1-8c68-42b2-a0b6-d837cdba68d8")
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Socket")
-		(at 175.26 27.94 0)
+		(lib_id "Connector_Generic_MountingPin:Conn_01x01_MountingPin")
+		(at 153.67 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0a194281-15f0-4abf-9860-3fa9efbc0a50")
-		(property "Reference" "J1"
-			(at 176.53 26.6699 0)
+		(uuid "0a60f00d-32c5-4d9d-a4af-c173c11154f9")
+		(property "Reference" "J3"
+			(at 156.21 79.0955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2850,8 +3088,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03_Socket"
-			(at 176.53 29.2099 0)
+		(property "Value" "M4 Mounting"
+			(at 156.21 81.6355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2859,8 +3097,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
-			(at 175.26 27.94 0)
+		(property "Footprint" "Mounting:MountingHole_4.3mm_M4"
+			(at 153.67 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2869,7 +3107,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 27.94 0)
+			(at 153.67 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2877,28 +3115,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 175.26 27.94 0)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 153.67 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "3"
-			(uuid "35d81a6d-215e-4fb6-8261-ef8bd29cf064")
 		)
 		(pin "1"
-			(uuid "cdeece69-c8fa-4e44-9a6d-4547838d03e6")
+			(uuid "76b5c6c9-84fb-49c4-bab2-83a42f5e91b7")
 		)
-		(pin "2"
-			(uuid "16255df6-7a37-4b49-9787-a6b16624a431")
+		(pin "MP"
+			(uuid "ff5d1cd5-f399-46df-b201-30d33539256a")
 		)
 		(instances
-			(project ""
+			(project "IEE_Drone_2026"
 				(path "/3847996a-ac9c-4544-b9d3-a55cb82580af"
-					(reference "J1")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -2965,6 +3200,154 @@
 			(project ""
 				(path "/3847996a-ac9c-4544-b9d3-a55cb82580af"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x06_Socket")
+		(at 162.56 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b650c40-9737-4267-853b-5549d7f12ecf")
+		(property "Reference" "J1"
+			(at 163.83 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x06_Socket"
+			(at 163.83 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x06_P1.00mm_Vertical"
+			(at 162.56 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 162.56 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "21808eb0-306f-469e-89fc-a805593352c1")
+		)
+		(pin "4"
+			(uuid "013bfe89-295b-449b-a779-48f68ae671df")
+		)
+		(pin "1"
+			(uuid "21c70135-dfeb-48ff-b9ab-bd345937d2a2")
+		)
+		(pin "6"
+			(uuid "7de602ae-7c15-4498-bccd-739063eef463")
+		)
+		(pin "2"
+			(uuid "96671f54-105a-45fc-ba8d-f20d893e2df6")
+		)
+		(pin "5"
+			(uuid "439c2c3d-9b5b-4767-9378-4f8fb0ba3df6")
+		)
+		(instances
+			(project ""
+				(path "/3847996a-ac9c-4544-b9d3-a55cb82580af"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 72.39 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bbebe98-72cd-4f4d-bf3c-6df60dccf8a2")
+		(property "Reference" "#PWR01"
+			(at 72.39 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 72.39 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d62a5c10-3d8b-4258-9054-bbba4f551520")
+		)
+		(instances
+			(project "IEE_Drone_2026"
+				(path "/3847996a-ac9c-4544-b9d3-a55cb82580af"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -3271,204 +3654,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 170.18 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "35ca8ed5-2314-45c6-a82f-7f375a16a766")
-		(property "Reference" "#PWR03"
-			(at 170.18 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 170.18 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e9b03871-49c9-4218-a472-201ba8619a39")
-		)
-		(instances
-			(project "drone pcb"
-				(path "/3847996a-ac9c-4544-b9d3-a55cb82580af"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 170.18 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "35e51cdf-6a65-49f9-bec8-7f30a0409e95")
-		(property "Reference" "#PWR01"
-			(at 170.18 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 170.18 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d20c14fc-6073-41ef-862f-f3d734726532")
-		)
-		(instances
-			(project ""
-				(path "/3847996a-ac9c-4544-b9d3-a55cb82580af"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 161.29 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "366be6c8-94c9-406f-aead-a62737d4dd36")
-		(property "Reference" "#PWR08"
-			(at 161.29 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 161.29 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 161.29 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.29 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 161.29 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f1b774a-60f9-46b1-984c-766add2bd9a6")
-		)
-		(instances
-			(project "drone pcb"
-				(path "/3847996a-ac9c-4544-b9d3-a55cb82580af"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 87.63 127 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3528,79 +3713,6 @@
 			(project "drone pcb"
 				(path "/3847996a-ac9c-4544-b9d3-a55cb82580af"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Socket")
-		(at 175.26 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4a2e1821-4a90-46d0-b294-db790a9835c9")
-		(property "Reference" "J3"
-			(at 176.53 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x03_Socket"
-			(at 176.53 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
-			(at 175.26 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 175.26 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "1480902f-482b-4ccd-9b24-d7f5efb87b02")
-		)
-		(pin "1"
-			(uuid "34e181a0-5b2a-4083-9de6-36ac167eb42c")
-		)
-		(pin "2"
-			(uuid "17384999-dec6-4c23-9b84-4d20b6c2aa9b")
-		)
-		(instances
-			(project "drone pcb"
-				(path "/3847996a-ac9c-4544-b9d3-a55cb82580af"
-					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -3820,6 +3932,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x01_MountingPin")
+		(at 175.26 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f7caf4f-7cfa-415a-b520-a8c3d74d4ae0")
+		(property "Reference" "J5"
+			(at 177.8 68.9355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M4 Mounting"
+			(at 177.8 71.4755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Mounting:MountingHole_4.3mm_M4"
+			(at 175.26 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 175.26 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df835ac3-c419-466d-9f38-15d1890c7160")
+		)
+		(pin "MP"
+			(uuid "f4653c09-79ec-4076-8010-9c9214acfcbf")
+		)
+		(instances
+			(project "IEE_Drone_2026"
+				(path "/3847996a-ac9c-4544-b9d3-a55cb82580af"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 133.35 120.65 0)
 		(unit 1)
@@ -3891,16 +4073,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 170.18 86.36 0)
+		(at 142.24 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7a34e909-8d7d-45a2-be8c-6c3448c5869e")
-		(property "Reference" "#PWR04"
-			(at 170.18 92.71 0)
+		(uuid "768f0efd-adc7-4e42-bc94-58f16ecc6f02")
+		(property "Reference" "#PWR02"
+			(at 142.24 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3909,7 +4091,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 170.18 91.44 0)
+			(at 142.24 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3917,7 +4099,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 86.36 0)
+			(at 142.24 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3926,7 +4108,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 86.36 0)
+			(at 142.24 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3935,7 +4117,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 86.36 0)
+			(at 142.24 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3944,12 +4126,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b21ee9ba-9a66-43e9-8ec3-707357057872")
+			(uuid "86275623-113e-4052-bbed-f8cec4384f25")
 		)
 		(instances
-			(project "drone pcb"
+			(project "IEE_Drone_2026"
 				(path "/3847996a-ac9c-4544-b9d3-a55cb82580af"
-					(reference "#PWR04")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -4082,79 +4264,6 @@
 			(project ""
 				(path "/3847996a-ac9c-4544-b9d3-a55cb82580af"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Socket")
-		(at 175.26 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96a5494c-010d-489a-a63e-b1b3608d1588")
-		(property "Reference" "J2"
-			(at 176.53 43.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x03_Socket"
-			(at 176.53 45.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
-			(at 175.26 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 175.26 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "80d5d62a-df30-421e-a8e1-dfcd210bcf49")
-		)
-		(pin "1"
-			(uuid "9755b64a-16a7-4959-bb28-eb25e2bcf52c")
-		)
-		(pin "2"
-			(uuid "7ec35072-3270-4edd-8fa7-c6769a9f4a9f")
-		)
-		(instances
-			(project "drone pcb"
-				(path "/3847996a-ac9c-4544-b9d3-a55cb82580af"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -4297,17 +4406,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Socket")
-		(at 175.26 81.28 0)
+		(lib_id "Connector_Generic_MountingPin:Conn_01x01_MountingPin")
+		(at 153.67 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bdf7167f-7962-4be3-9bc1-8e4e3e43025f")
-		(property "Reference" "J4"
-			(at 176.53 80.0099 0)
+		(uuid "bc31eda0-e52a-4734-8760-086797b96597")
+		(property "Reference" "J2"
+			(at 156.21 68.9355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4315,8 +4424,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03_Socket"
-			(at 176.53 82.5499 0)
+		(property "Value" "M4 Mounting"
+			(at 156.21 71.4755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4324,8 +4433,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
-			(at 175.26 81.28 0)
+		(property "Footprint" "Mounting:MountingHole_4.3mm_M4"
+			(at 153.67 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4334,7 +4443,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 81.28 0)
+			(at 153.67 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4342,80 +4451,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 175.26 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "42afa192-a23e-4b80-8071-d5db35830d80")
-		)
-		(pin "1"
-			(uuid "bc6754f6-a2b5-4e2f-9c86-fd84202a290f")
-		)
-		(pin "2"
-			(uuid "0a860698-16f3-4b3c-a7a3-98012d2f411a")
-		)
-		(instances
-			(project "drone pcb"
-				(path "/3847996a-ac9c-4544-b9d3-a55cb82580af"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 170.18 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c779f9cf-f093-41b2-ba72-7bc6dea469b5")
-		(property "Reference" "#PWR02"
-			(at 170.18 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 170.18 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 49.53 0)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 153.67 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4424,78 +4461,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "01ff51ec-93ca-4acd-b7a8-b80eac1e22b1")
+			(uuid "80631139-9de5-4dcc-a43d-683d5313f4d4")
 		)
-		(instances
-			(project "drone pcb"
-				(path "/3847996a-ac9c-4544-b9d3-a55cb82580af"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 161.29 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cfb78d9c-ebd0-4b11-9db1-2c11f7472f34")
-		(property "Reference" "#PWR05"
-			(at 161.29 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 161.29 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 161.29 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.29 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 161.29 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "38e80fee-7869-45f8-813a-62789611d634")
+		(pin "MP"
+			(uuid "b006af45-4a07-4e3d-ae5c-f746c3ed0030")
 		)
 		(instances
 			(project ""
 				(path "/3847996a-ac9c-4544-b9d3-a55cb82580af"
-					(reference "#PWR05")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -4638,72 +4612,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 161.29 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dfeca8c4-d8f8-4753-9f80-85fe9507aa84")
-		(property "Reference" "#PWR06"
-			(at 161.29 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 161.29 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 161.29 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.29 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 161.29 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "85626948-0b6c-4dbf-b76f-852bc2309d91")
-		)
-		(instances
-			(project "drone pcb"
-				(path "/3847996a-ac9c-4544-b9d3-a55cb82580af"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 275.59 78.74 0)
 		(unit 1)
@@ -4768,72 +4676,6 @@
 			(project ""
 				(path "/3847996a-ac9c-4544-b9d3-a55cb82580af"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 161.29 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f876c5ec-ee17-49b5-aa52-6caee6beb243")
-		(property "Reference" "#PWR07"
-			(at 161.29 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 161.29 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 161.29 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.29 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 161.29 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "400a11f2-607e-4a15-a81c-d4fce4cb7924")
-		)
-		(instances
-			(project "drone pcb"
-				(path "/3847996a-ac9c-4544-b9d3-a55cb82580af"
-					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -5011,6 +4853,76 @@
 			(project ""
 				(path "/3847996a-ac9c-4544-b9d3-a55cb82580af"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x01_MountingPin")
+		(at 175.26 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fedf4042-310d-4663-a8a4-7a49c8ba90f6")
+		(property "Reference" "J4"
+			(at 177.8 79.0955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M4 Mounting"
+			(at 177.8 81.6355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Mounting:MountingHole_4.3mm_M4"
+			(at 175.26 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 175.26 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84af20a4-7372-4429-9623-fc9b323e7eac")
+		)
+		(pin "MP"
+			(uuid "3d0ad0d7-c5df-4e9c-ba48-bec6f3b12be4")
+		)
+		(instances
+			(project "IEE_Drone_2026"
+				(path "/3847996a-ac9c-4544-b9d3-a55cb82580af"
+					(reference "J4")
 					(unit 1)
 				)
 			)
