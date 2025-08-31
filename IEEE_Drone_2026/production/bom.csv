@@ -1,0 +1,12 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+A1,Adafruit_Feather_M0_RFM,1,Adafruit_Feather_M0_RFM9x_LoRa_Radio,
+C1,0603,1,100nf,
+C2,0603,1,6.8uF,
+C3,0603,1,330pF,
+C4,0603,1,47uF,
+IC1,TPSM84209RKHT,1,TPSM84209RKHT,
+"J1, J2, J3, J4",PinSocket_1x03_P2.54mm_Vertical,4,Conn_01x03_Socket,
+"R1, R2",0603,2,10k,
+R3,0603,1,10kOhm,
+R4,0603,1,2.2kOhm,
+U1,SON125P300X500X100-8N,1,MS560702BA03-50,

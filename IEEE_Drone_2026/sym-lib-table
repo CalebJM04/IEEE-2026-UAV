@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TPSM84209RKHT")(type "KiCad")(uri "${KIPRJMOD}/LIB_TPSM84209RKHT/TPSM84209RKHT/KiCad/TPSM84209RKHT.kicad_sym")(options "")(descr ""))
+)

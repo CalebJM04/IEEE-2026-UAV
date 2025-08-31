@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TPSM84209RKHT
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=9
+Version=1.2
+Released=2018-11-06 13:34:12
+Downloaded=2025-08-21 23:41:56
+3D=Y
