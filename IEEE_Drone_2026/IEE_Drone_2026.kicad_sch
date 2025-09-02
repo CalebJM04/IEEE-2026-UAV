@@ -3806,7 +3806,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x01_MountingPin")
-		(at 153.67 80.01 0)
+		(at 154.94 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3815,7 +3815,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a60f00d-32c5-4d9d-a4af-c173c11154f9")
 		(property "Reference" "J3"
-			(at 156.21 79.0955 0)
+			(at 157.48 96.8755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3824,7 +3824,7 @@
 			)
 		)
 		(property "Value" "M4 Mounting"
-			(at 156.21 81.6355 0)
+			(at 157.48 99.4155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3833,7 +3833,7 @@
 			)
 		)
 		(property "Footprint" "Mounting:MountingHole_4.3mm_M4"
-			(at 153.67 80.01 0)
+			(at 154.94 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3842,7 +3842,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 80.01 0)
+			(at 154.94 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3851,7 +3851,7 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 153.67 80.01 0)
+			(at 154.94 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4312,6 +4312,76 @@
 			(project ""
 				(path "/3847996a-ac9c-4544-b9d3-a55cb82580af"
 					(reference "A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x01_MountingPin")
+		(at 154.94 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c951b18-37a7-4472-aff4-607ad91fce78")
+		(property "Reference" "J8"
+			(at 157.48 67.6655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2"
+			(at 157.48 70.2055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 154.94 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 154.94 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "368b4768-91d7-469b-8a1d-0175dbd221bc")
+		)
+		(pin "MP"
+			(uuid "4f286d10-7668-49fa-bc37-b076490ba438")
+		)
+		(instances
+			(project "IEE_Drone_2026"
+				(path "/3847996a-ac9c-4544-b9d3-a55cb82580af"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -5094,7 +5164,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x01_MountingPin")
-		(at 175.26 69.85 0)
+		(at 176.53 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5103,7 +5173,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f7caf4f-7cfa-415a-b520-a8c3d74d4ae0")
 		(property "Reference" "J5"
-			(at 177.8 68.9355 0)
+			(at 179.07 86.7155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5112,7 +5182,7 @@
 			)
 		)
 		(property "Value" "M4 Mounting"
-			(at 177.8 71.4755 0)
+			(at 179.07 89.2555 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5121,7 +5191,7 @@
 			)
 		)
 		(property "Footprint" "Mounting:MountingHole_4.3mm_M4"
-			(at 175.26 69.85 0)
+			(at 176.53 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5130,7 +5200,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 69.85 0)
+			(at 176.53 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5139,7 +5209,7 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 175.26 69.85 0)
+			(at 176.53 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5497,6 +5567,146 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x01_MountingPin")
+		(at 176.53 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8577cfb2-a401-46f3-b56e-8ef2719d8b65")
+		(property "Reference" "J10"
+			(at 179.07 67.6655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2"
+			(at 179.07 70.2055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 176.53 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 176.53 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f883257-2981-4633-b00f-36b5a7d4cc61")
+		)
+		(pin "MP"
+			(uuid "ab67e2df-f170-45b8-9103-a1f322320df9")
+		)
+		(instances
+			(project "IEE_Drone_2026"
+				(path "/3847996a-ac9c-4544-b9d3-a55cb82580af"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x01_MountingPin")
+		(at 154.94 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94873674-2092-45d0-b175-3119b9ff8591")
+		(property "Reference" "J7"
+			(at 157.48 57.5055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2"
+			(at 157.48 60.0455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 154.94 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 154.94 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abba1470-3260-458d-9f5e-98f70b28c6f1")
+		)
+		(pin "MP"
+			(uuid "fb8ddeb3-5acd-4932-8185-1be7bd590ee7")
+		)
+		(instances
+			(project "IEE_Drone_2026"
+				(path "/3847996a-ac9c-4544-b9d3-a55cb82580af"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 275.59 87.63 0)
 		(unit 1)
@@ -5766,7 +5976,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x01_MountingPin")
-		(at 153.67 69.85 0)
+		(at 154.94 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5775,7 +5985,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc31eda0-e52a-4734-8760-086797b96597")
 		(property "Reference" "J2"
-			(at 156.21 68.9355 0)
+			(at 157.48 86.7155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5784,7 +5994,7 @@
 			)
 		)
 		(property "Value" "M4 Mounting"
-			(at 156.21 71.4755 0)
+			(at 157.48 89.2555 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5793,7 +6003,7 @@
 			)
 		)
 		(property "Footprint" "Mounting:MountingHole_4.3mm_M4"
-			(at 153.67 69.85 0)
+			(at 154.94 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5802,7 +6012,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 69.85 0)
+			(at 154.94 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5811,7 +6021,7 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 153.67 69.85 0)
+			(at 154.94 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5829,6 +6039,76 @@
 			(project ""
 				(path "/3847996a-ac9c-4544-b9d3-a55cb82580af"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x01_MountingPin")
+		(at 176.53 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7e46858-fc2d-45d1-90ef-000d665cd9f9")
+		(property "Reference" "J9"
+			(at 179.07 57.5055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2"
+			(at 179.07 60.0455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 176.53 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 176.53 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "530b975f-adea-4084-957a-edcf9478e9a1")
+		)
+		(pin "MP"
+			(uuid "0bf73c38-1875-464d-bb09-4dc216d5a0e7")
+		)
+		(instances
+			(project "IEE_Drone_2026"
+				(path "/3847996a-ac9c-4544-b9d3-a55cb82580af"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -6491,7 +6771,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x01_MountingPin")
-		(at 175.26 80.01 0)
+		(at 176.53 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6500,7 +6780,7 @@
 		(fields_autoplaced yes)
 		(uuid "fedf4042-310d-4663-a8a4-7a49c8ba90f6")
 		(property "Reference" "J4"
-			(at 177.8 79.0955 0)
+			(at 179.07 96.8755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6509,7 +6789,7 @@
 			)
 		)
 		(property "Value" "M4 Mounting"
-			(at 177.8 81.6355 0)
+			(at 179.07 99.4155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6518,7 +6798,7 @@
 			)
 		)
 		(property "Footprint" "Mounting:MountingHole_4.3mm_M4"
-			(at 175.26 80.01 0)
+			(at 176.53 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6527,7 +6807,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 80.01 0)
+			(at 176.53 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6536,7 +6816,7 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 175.26 80.01 0)
+			(at 176.53 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
