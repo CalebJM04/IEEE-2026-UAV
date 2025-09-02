@@ -7835,6 +7835,22 @@
 		(net 41)
 		(uuid "f83da8c7-0a9d-4fc3-917e-c92cbad60923")
 	)
+	(segment
+		(start 81.8 70.675)
+		(end 81.8 72.4)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 43)
+		(uuid "127d5539-2371-47c6-9d53-32d2e27477ff")
+	)
+	(segment
+		(start 81.8 72.4)
+		(end 81.55 72.65)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 43)
+		(uuid "97ce0c8a-6ef1-4d05-bd5b-c7d57ddfda9e")
+	)
 	(zone
 		(net 29)
 		(net_name "GND")
