@@ -6563,6 +6563,18 @@
 			)
 		)
 	)
+	(gr_text "Designed by Caleb Murray \nIEEE 2026\n"
+		(at 103.886 58.801 90)
+		(layer "B.SilkS")
+		(uuid "4f7b8973-5cec-4fc9-bec0-2587e2c65906")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(segment
 		(start 90.9 53.05)
 		(end 90.9 82)
