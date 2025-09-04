@@ -9053,6 +9053,68 @@
 		)
 	)
 	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Mask")
+		(uuid "9a7729d2-1417-4433-a4a2-24779d07483a")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 1)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 80.01 97.917) (xy 80.01 100.584) (xy 87.249 100.584) (xy 87.249 97.917)
+			)
+		)
+		(filled_polygon
+			(layer "F.Mask")
+			(island)
+			(pts
+				(xy 87.192039 97.936685) (xy 87.237794 97.989489) (xy 87.249 98.041) (xy 87.249 100.46) (xy 87.229315 100.527039)
+				(xy 87.176511 100.572794) (xy 87.125 100.584) (xy 80.134 100.584) (xy 80.066961 100.564315) (xy 80.021206 100.511511)
+				(xy 80.01 100.46) (xy 80.01 98.041) (xy 80.029685 97.973961) (xy 80.082489 97.928206) (xy 80.134 97.917)
+				(xy 87.125 97.917)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Mask")
+		(uuid "bf4eea20-6896-4c15-a6fd-ca7e6fc0ebf7")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 1)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 96.139 97.917) (xy 96.139 100.584) (xy 88.9 100.584) (xy 88.9 97.917)
+			)
+		)
+		(filled_polygon
+			(layer "F.Mask")
+			(island)
+			(pts
+				(xy 96.082039 97.936685) (xy 96.127794 97.989489) (xy 96.139 98.041) (xy 96.139 100.46) (xy 96.119315 100.527039)
+				(xy 96.066511 100.572794) (xy 96.015 100.584) (xy 89.024 100.584) (xy 88.956961 100.564315) (xy 88.911206 100.511511)
+				(xy 88.9 100.46) (xy 88.9 98.041) (xy 88.919685 97.973961) (xy 88.972489 97.928206) (xy 89.024 97.917)
+				(xy 96.015 97.917)
+			)
+		)
+	)
+	(zone
 		(net 29)
 		(net_name "GND")
 		(layer "B.Cu")
