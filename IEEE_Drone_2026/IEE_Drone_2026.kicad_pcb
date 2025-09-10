@@ -2550,7 +2550,7 @@
 		(uuid "6c1e0195-61d5-494e-b9e4-85b96660eb6c")
 		(at 99.568 71.12)
 		(property "Reference" "Q1"
-			(at 0.635 -3.175 0)
+			(at 0 -2.54 0)
 			(layer "F.SilkS")
 			(uuid "7adb8631-6050-4516-bffc-6dfcf3cc7a1e")
 			(effects
@@ -7917,6 +7917,17 @@
 		(at 69.45 69 90)
 		(layer "F.SilkS")
 		(uuid "c58eafd3-7b10-4b76-ac4d-78367b39b6b7")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+		)
+	)
+	(gr_text "D11\n"
+		(at 103.124 69.469 0)
+		(layer "F.SilkS")
+		(uuid "d6c4b455-e044-4698-8676-046f32cf98b7")
 		(effects
 			(font
 				(size 0.5 0.5)
