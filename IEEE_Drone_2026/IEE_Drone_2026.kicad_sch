@@ -4269,7 +4269,7 @@
 		(at 154.94 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4492,7 +4492,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 200.66 108.2548 0)
 			(effects
 				(font
@@ -4539,7 +4539,7 @@
 		(at 162.56 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4848,7 +4848,7 @@
 		(at 154.94 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5000,7 +5000,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2kOhm"
+		(property "Value" "2.2k"
 			(at 264.16 85.0899 0)
 			(effects
 				(font
@@ -5122,7 +5122,7 @@
 		(at 130.81 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5216,7 +5216,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-39-3"
+		(property "Footprint" "2n2222:SOT95P237X111-3N"
 			(at 128.27 170.815 0)
 			(effects
 				(font
@@ -5269,7 +5269,7 @@
 		(at 129.54 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5437,7 +5437,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 251.1552 138.43 0)
 			(effects
 				(font
@@ -5840,7 +5840,7 @@
 		(at 176.53 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6244,7 +6244,7 @@
 		(at 176.53 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6314,7 +6314,7 @@
 		(at 154.94 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6530,7 +6530,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10kOhm"
+		(property "Value" "10k"
 			(at 264.16 74.9299 0)
 			(effects
 				(font
@@ -6652,7 +6652,7 @@
 		(at 154.94 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6790,7 +6790,7 @@
 		(at 176.53 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -7085,7 +7085,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 276.5552 82.55 0)
 			(effects
 				(font
@@ -7282,7 +7282,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10kOhm"
+		(property "Value" "10k"
 			(at 238.76 130.8099 0)
 			(effects
 				(font
@@ -7515,7 +7515,7 @@
 		(at 176.53 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
