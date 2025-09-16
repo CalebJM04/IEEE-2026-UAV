@@ -1,0 +1,128 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "SKTHAHE010"
+   (description "Tactile Switches H 1.8mm, 3.0N")
+   (family "SWI")
+   (package "SKTHAHE010")
+   (attribute "Datasheet Link" "https://tech.alpsalpine.com/e/products/detail/SKTHAHE010/")
+   (attribute "Geometry.Height" "2mm")
+   (attribute "Mouser Part Number" "688-SKTHAHE010")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKTHAHE010?qs=T3oQrply3y8NYoSxPHM%252Buw%3D%3D")
+   (attribute "Manufacturer_Name" "ALPS Electric")
+   (attribute "Manufacturer_Part_Number" "SKTHAHE010")
+   (gate
+    (symbol "SKTHAHE010")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+    (pin "4" 4 PS)
+   )
+  )
+  (symbol "SKTHAHE010"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SKTHAHE010"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.75 -1.6)
+      (pt 1.75 -1.6)
+      (pt 1.75 1.6)
+      (pt -1.75 1.6)
+      (pt -1.75 -1.6))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.75 1.6)
+      (pt 1.75 1.6)
+      (pt 1.75 1.6)
+      (pt -1.75 1.6)
+      (pt -1.75 1.6))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.75 -1.6)
+      (pt 1.75 -1.6)
+      (pt 1.75 -1.6)
+      (pt -1.75 -1.6)
+      (pt -1.75 -1.6))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4.2 2.6)
+      (pt 3.5 2.6)
+      (pt 3.5 -2.6)
+      (pt -4.2 -2.6)
+      (pt -4.2 2.6))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -3.2 -0.75)
+      (arc (pt -3.200 -0.750) (pt -3.200 -0.800) (pt -3.100 -0.700) (start 180.0) (sweep 180.0))
+      (pt -3.1 -0.75)
+      (arc (pt -3.100 -0.750) (pt -3.200 -0.800) (pt -3.100 -0.700) (start 180.0) (sweep .0))
+      (pt -3.2 -0.75)
+      (arc (pt -3.200 -0.750) (pt -3.200 -0.800) (pt -3.100 -0.700) (start 180.0) (sweep 180.0))
+      (pt -3.1 -0.75))))
+   (leg 1 (pt -1.975 -0.650) (padstack 0))
+   (leg 2 (pt 1.975 -0.650) (padstack 0))
+   (leg 3 (pt -1.975 0.650) (padstack 0))
+   (leg 4 (pt 1.975 0.650) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.900 1.050 0 0 0.000))
+   )
+   (model "SKTHAHE010.stp"
+    (euler -90 180 0)
+    (offset -0.03999999910593033 0 0.05000000074505806)
+   )
+  )
+ )
+)

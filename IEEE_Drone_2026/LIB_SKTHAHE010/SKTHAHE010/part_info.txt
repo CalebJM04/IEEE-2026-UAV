@@ -1,0 +1,9 @@
+Manufacturer=ALPS Electric
+PartNumber=SKTHAHE010
+PartCategory=Switch
+PackageCategory=Other
+PinCount=4
+Version=1.2
+Released=2020-01-11 14:55:43
+Downloaded=2025-09-17 00:23:00
+3D=Y

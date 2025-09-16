@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SKTHAHE010"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-01-11-14:55:43)
+    (mountForm default
+        (footprintRef "SKTHAHE010")
+        (spec "System")
+    )
+)

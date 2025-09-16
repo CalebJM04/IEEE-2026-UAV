@@ -2,4 +2,7 @@
   (version 7)
   (lib (name "KiCad")(type "KiCad")(uri "${KIPRJMOD}/LIB_TPSM84209RKHT/TPSM84209RKHT/KiCad")(options "")(descr ""))
   (lib (name "2n2222")(type "KiCad")(uri "${KIPRJMOD}/MMBT2222ALT1G")(options "")(descr ""))
+  (lib (name "switch")(type "KiCad")(uri "${KIPRJMOD}/B3U_1000P (1)")(options "")(descr ""))
+  (lib (name "16vswitch")(type "KiCad")(uri "${KIPRJMOD}/16vswitch")(options "")(descr ""))
+  (lib (name "16vbig")(type "KiCad")(uri "${KIPRJMOD}/LIB_SKTHAHE010/SKTHAHE010/KiCad")(options "")(descr ""))
 )

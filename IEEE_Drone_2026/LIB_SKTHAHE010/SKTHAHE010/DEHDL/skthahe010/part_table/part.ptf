@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SKTHAHE010'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "ALPS Electric", "SKTHAHE010" (!) = "", "SKTHAHE010", "Other", "688-SKTHAHE010", "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKTHAHE010?qs=T3oQrply3y8NYoSxPHM%252Buw%3D%3D", "Tactile Switches H 1.8mm, 3.0N", "https://tech.alpsalpine.com/e/products/detail/SKTHAHE010/", "2 mm"
+END_PART
+
+END.

@@ -1,0 +1,16 @@
+.SKTHAHE010 :1 ;Tactile Switches H 1.8mm, 3.0N
+SKTHAHE010
+*STM S
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4"
+*MXP 4
+*DFN SKTHAHE010
+~!Mouser Part Number (688-SKTHAHE010)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKTHAHE010?qs=T3oQrply3y8NYoSxPHM%252Buw%3D%3D)
+~!Manufacturer_Name (ALPS Electric)
+~!Manufacturer_Part_Number (SKTHAHE010)
+~!Link Datasheet (https://tech.alpsalpine.com/e/products/detail/SKTHAHE010/)
+~!Height (2mm)
+~!3D_Model (SKTHAHE010)
+SKTHAHE010
+1.1!U 2.1!U 3.1!U 4.1!U 

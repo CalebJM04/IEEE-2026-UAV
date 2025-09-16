@@ -5,6 +5,194 @@
 	(uuid "3847996a-ac9c-4544-b9d3-a55cb82580af")
 	(paper "A4")
 	(lib_symbols
+		(symbol "16vbig:SKTHAHE010"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "SKTHAHE010"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SKTHAHE010"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://tech.alpsalpine.com/e/products/detail/SKTHAHE010/"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Tactile Switches H 1.8mm, 3.0N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "2"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "688-SKTHAHE010"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKTHAHE010?qs=T3oQrply3y8NYoSxPHM%252Buw%3D%3D"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "ALPS Electric"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SKTHAHE010"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "SKTHAHE010_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x02_Socket"
 			(pin_names
 				(offset 1.016)
@@ -3031,12 +3219,6 @@
 		(uuid "b772b264-c089-4642-8fdd-effd5065eaaa")
 	)
 	(junction
-		(at 275.59 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b92090dd-d87b-4eb3-8b14-19d361b2acdb")
-	)
-	(junction
 		(at 203.2 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3065,6 +3247,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef71ec18-f226-45fd-8b58-0e4959940b38")
+	)
+	(junction
+		(at 275.59 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa414376-975c-424e-b3db-5146e82278c5")
 	)
 	(no_connect
 		(at 123.19 114.3)
@@ -4535,6 +4723,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+VDC")
+		(at 168.91 151.13 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "173645d6-0f1f-4f8a-9bf3-54bf08808018")
+		(property "Reference" "#PWR017"
+			(at 166.37 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VDC"
+			(at 175.26 151.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+VDC\""
+			(at 168.91 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8b24bdf-1a71-4213-acb5-7bbd0fd2f377")
+		)
+		(instances
+			(project "IEE_Drone_2026"
+				(path "/3847996a-ac9c-4544-b9d3-a55cb82580af"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x06_Socket")
 		(at 162.56 40.64 0)
 		(unit 1)
@@ -5046,6 +5301,73 @@
 			(project ""
 				(path "/3847996a-ac9c-4544-b9d3-a55cb82580af"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+VDC")
+		(at 148.59 151.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35e52f1d-4dbc-4b29-b1df-f597014080e9")
+		(property "Reference" "#PWR016"
+			(at 151.13 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VDC"
+			(at 142.24 151.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+VDC\""
+			(at 148.59 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac517897-aed8-4d8d-aa5a-0afc68508730")
+		)
+		(instances
+			(project "IEE_Drone_2026"
+				(path "/3847996a-ac9c-4544-b9d3-a55cb82580af"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -6448,12 +6770,12 @@
 	(symbol
 		(lib_id "power:+3.3V")
 		(at 275.59 69.85 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9789a769-4730-4df0-9ea5-01a0bb4804d6")
 		(property "Reference" "#PWR013"
 			(at 275.59 73.66 0)
@@ -6465,7 +6787,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 275.59 64.77 0)
+			(at 273.812 65.532 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6503,7 +6825,7 @@
 			(uuid "64b80f3e-1b10-432b-9ea4-23bea57f7699")
 		)
 		(instances
-			(project ""
+			(project "IEE_Drone_2026"
 				(path "/3847996a-ac9c-4544-b9d3-a55cb82580af"
 					(reference "#PWR013")
 					(unit 1)
@@ -6712,6 +7034,132 @@
 			(project ""
 				(path "/3847996a-ac9c-4544-b9d3-a55cb82580af"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "16vbig:SKTHAHE010")
+		(at 148.59 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf4a14d9-a5f3-4a4c-8866-ad03aa0c18d7")
+		(property "Reference" "S1"
+			(at 158.75 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SKTHAHE010"
+			(at 158.75 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SKTHAHE010"
+			(at 165.1 246.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://tech.alpsalpine.com/e/products/detail/SKTHAHE010/"
+			(at 165.1 346.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switches H 1.8mm, 3.0N"
+			(at 148.59 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2"
+			(at 165.1 546.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "688-SKTHAHE010"
+			(at 165.1 646.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKTHAHE010?qs=T3oQrply3y8NYoSxPHM%252Buw%3D%3D"
+			(at 165.1 746.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ALPS Electric"
+			(at 165.1 846.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SKTHAHE010"
+			(at 165.1 946.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ffd72ae2-1178-40ec-a06e-599a36f8dca0")
+		)
+		(pin "1"
+			(uuid "7eb734e7-c081-45e1-b3e1-44a910b9e81f")
+		)
+		(pin "4"
+			(uuid "7f2fe3c2-6d0b-4b44-a526-08a5ed969f36")
+		)
+		(pin "2"
+			(uuid "eeea8c02-80f9-4e58-8ee3-217c4125bf84")
+		)
+		(instances
+			(project ""
+				(path "/3847996a-ac9c-4544-b9d3-a55cb82580af"
+					(reference "S1")
 					(unit 1)
 				)
 			)
