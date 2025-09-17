@@ -1,4 +1,4 @@
-26651546073852224
+26655062230649627
 2n2222
 SOT95P237X111-3N
 
@@ -6,6 +6,13 @@ SOT95P237X111-3N
 0
 3
 3
+16vswitch
+SW_PTS810_SJM_250_SMTR_LFS
+
+
+0
+4
+4
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106273,3 +106280,10 @@ qrcodefoot
 0
 0
 0
+switch
+SW_B3U-1000P
+
+
+0
+2
+2
