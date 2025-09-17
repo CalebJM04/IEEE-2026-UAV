@@ -1551,7 +1551,7 @@
 		(descr "SKTHAHE010-2")
 		(tags "Switch")
 		(property "Reference" "S1"
-			(at -0.35 0 90)
+			(at -0.35 0 180)
 			(layer "F.SilkS")
 			(uuid "2c296064-9618-461b-aa1e-04d4ea1b6d13")
 			(effects
@@ -1890,7 +1890,7 @@
 			(uuid "5f1adb4f-0e19-4387-a1f3-3ba13e6be35f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -0.35 0 90)
+			(at -0.35 0 180)
 			(layer "F.Fab")
 			(uuid "0d6fafe9-4ca7-407a-9534-c4c3c2952ea5")
 			(effects
