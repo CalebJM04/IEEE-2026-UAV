@@ -6972,6 +6972,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "this is the old baro, we don't need it anymore"
+		(exclude_from_sim no)
+		(at 369.316 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2c18f486-df1f-4720-89de-6790e414a3a6")
+	)
 	(text "keep CLOSE to MCU, short traces"
 		(exclude_from_sim no)
 		(at 32.258 109.982 0)
@@ -6981,6 +6991,16 @@
 			)
 		)
 		(uuid "2e517433-d502-49b2-9861-de68021ba832")
+	)
+	(text "change\n"
+		(exclude_from_sim no)
+		(at 357.886 231.648 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c1ee876b-270f-4887-88e0-f7660f6a413b")
 	)
 	(text "is this VDC IN?\n"
 		(exclude_from_sim no)
@@ -8055,6 +8075,16 @@
 			(type default)
 		)
 		(uuid "efdff992-f853-4146-9442-431df634571e")
+	)
+	(wire
+		(pts
+			(xy 209.55 222.25) (xy 214.63 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0875d21-b160-466d-85a4-12caee4d10cc")
 	)
 	(wire
 		(pts
@@ -10399,7 +10429,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Magnetic:LIS2MDL")
-		(at 203.2 163.83 0)
+		(at 214.63 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10408,7 +10438,7 @@
 		(fields_autoplaced yes)
 		(uuid "66c46e45-6567-4baf-9e00-9b4a7298eed3")
 		(property "Reference" "U5"
-			(at 205.3433 176.53 0)
+			(at 216.7733 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10417,7 +10447,7 @@
 			)
 		)
 		(property "Value" "LIS2MDL"
-			(at 205.3433 179.07 0)
+			(at 216.7733 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10426,7 +10456,7 @@
 			)
 		)
 		(property "Footprint" "Package_LGA:LGA-12_2x2mm_P0.5mm"
-			(at 233.68 171.45 0)
+			(at 245.11 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10435,7 +10465,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lis2mdl.pdf"
-			(at 241.3 173.99 0)
+			(at 252.73 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10444,7 +10474,7 @@
 			)
 		)
 		(property "Description" "Ultra-low-power, 3-axis digital output magnetometer, LGA-12"
-			(at 203.2 163.83 0)
+			(at 214.63 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
