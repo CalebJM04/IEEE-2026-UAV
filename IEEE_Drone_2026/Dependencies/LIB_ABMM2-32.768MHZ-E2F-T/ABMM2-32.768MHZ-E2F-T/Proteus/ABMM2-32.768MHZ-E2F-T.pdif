@@ -1,0 +1,108 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "ABMM2-32.768MHZ-E2F-T"
+   (description "MEMS OSC XO 48.0000MHZ CMOS SMD")
+   (family "OSC")
+   (package "ABMM2")
+   (attribute "Datasheet Link" "https://abracon.com/Resonators/ABMM2.pdf")
+   (attribute "Geometry.Height" "1.2mm")
+   (attribute "Mouser Part Number" "815-ABMM2-32.768E2FT")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ABRACON/ABMM2-32.768MHZ-E2F-T?qs=gmcn8Ik9O3F06OPHe8pYYg%3D%3D")
+   (attribute "Manufacturer_Name" "ABRACON")
+   (attribute "Manufacturer_Part_Number" "ABMM2-32.768MHZ-E2F-T")
+   (gate
+    (symbol "ABMM2-32.768MHZ-E2F-T")
+    (pin "X1" 1 PS)
+    (pin "GND_1" 2 PS)
+    (pin "X2" 3 PS)
+    (pin "GND_2" 4 PS)
+   )
+  )
+  (symbol "ABMM2-32.768MHZ-E2F-T"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1000 100) (pt 1000 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "ABMM2"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -3 1.8)
+      (pt 3 1.8)
+      (pt 3 -1.8)
+      (pt -3 -1.8)
+      (pt -3 1.8))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -0.938 1.8)
+      (pt 0.938 1.8))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -0.938 -1.8)
+      (pt 0.938 -1.8))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (circle
+      (pt -2.29867 -2.475) (pt -2.20533 -2.475)
+     )
+    )
+   )
+   (leg 1 (pt -2.2 -1.2) (padstack 0))
+   (leg 2 (pt 2.2 -1.2) (padstack 0))
+   (leg 3 (pt 2.2 1.2) (padstack 0))
+   (leg 4 (pt -2.2 1.2) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.4 1.8 0 0 0))
+   )
+   (model "ABMM2-32.768MHZ-E2F-T.stp"
+    (euler 0 0 0)
+    (offset 0 0 0.44999998807907104)
+   )
+  )
+ )
+)

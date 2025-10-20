@@ -4,4 +4,7 @@
   (lib (name "switch")(type "KiCad")(uri "${KIPRJMOD}/B3U_1000P (1)/B3U-1000P.kicad_sym")(options "")(descr ""))
   (lib (name "16vswitch")(type "KiCad")(uri "${KIPRJMOD}/16vswitch/PTS810_SJM_250_SMTR_LFS.kicad_sym")(options "")(descr ""))
   (lib (name "16vbig")(type "KiCad")(uri "${KIPRJMOD}/LIB_SKTHAHE010/SKTHAHE010/KiCad/SKTHAHE010.kicad_sym")(options "")(descr ""))
+  (lib (name "8mhz crystal")(type "KiCad")(uri "${KIPRJMOD}/Dependencies/symbols/LFXTAL020423.kicad_sym")(options "")(descr ""))
+  (lib (name "32mhz crystal")(type "KiCad")(uri "${KIPRJMOD}/Dependencies/symbols/ABMM2-32_768MHZ-E2F-T.kicad_sym")(options "")(descr ""))
+  (lib (name "ICM-42605")(type "KiCad")(uri "${KIPRJMOD}/Dependencies/symbols/ICM-42605.kicad_sym")(options "")(descr ""))
 )

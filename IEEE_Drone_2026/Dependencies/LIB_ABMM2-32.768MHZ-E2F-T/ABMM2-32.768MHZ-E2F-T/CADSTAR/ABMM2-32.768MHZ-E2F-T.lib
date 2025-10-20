@@ -1,0 +1,16 @@
+.ABMM2-32.768MHZ-E2F-T :1 ;MEMS OSC XO 48.0000MHZ CMOS SMD
+ABMM2
+*STM Y
+*NGS
+*PLB 1="X1" 2="GND_1" 3="X2" 4="GND_2"
+*MXP 4
+*DFN ABMM2-32.768MHZ-E2F-T
+~!Mouser Part Number (815-ABMM2-32.768E2FT)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/ABRACON/ABMM2-32.768MHZ-E2F-T?qs=gmcn8Ik9O3F06OPHe8pYYg%3D%3D)
+~!Manufacturer_Name (ABRACON)
+~!Manufacturer_Part_Number (ABMM2-32.768MHZ-E2F-T)
+~!Link Datasheet (https://abracon.com/Resonators/ABMM2.pdf)
+~!Height (1.2mm)
+~!3D_Model (ABMM2-32.768MHZ-E2F-T)
+ABMM2-32.768MHZ-E2F-T
+1.1!U 2.1!U 3.1!U 4.1!U 
