@@ -1,0 +1,9 @@
+Manufacturer=ABRACON
+PartNumber=ABMM2-32.768MHZ-E2F-T
+PartCategory=Crystal or Oscillator
+PackageCategory=Other
+PinCount=4
+Version=2.1
+Released=2023-04-14 15:41:51
+Downloaded=2025-10-19 22:09:01
+3D=Y
