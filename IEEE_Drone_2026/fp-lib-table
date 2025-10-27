@@ -5,4 +5,6 @@
   (lib (name "switch")(type "KiCad")(uri "${KIPRJMOD}/B3U_1000P (1)")(options "")(descr ""))
   (lib (name "16vswitch")(type "KiCad")(uri "${KIPRJMOD}/16vswitch")(options "")(descr ""))
   (lib (name "16vbig")(type "KiCad")(uri "${KIPRJMOD}/LIB_SKTHAHE010/SKTHAHE010/KiCad")(options "")(descr ""))
+  (lib (name "bmp390")(type "KiCad")(uri "${KIPRJMOD}/Dependencies/footprints")(options "")(descr ""))
+  (lib (name "forICM")(type "KiCad")(uri "${KIPRJMOD}/Dependencies/footprints")(options "")(descr ""))
 )
