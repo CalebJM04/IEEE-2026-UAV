@@ -6125,6 +6125,12 @@
 		(uuid "3e22c566-107f-4b16-9998-a1fac79a7693")
 	)
 	(junction
+		(at 17.78 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3fe5f696-357d-4a6d-a049-9a311bc0d954")
+	)
+	(junction
 		(at 62.23 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7824,6 +7830,16 @@
 	)
 	(wire
 		(pts
+			(xy 17.78 38.1) (xy 17.78 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9dff44a-f7c1-454f-b80d-7c1a978dcfe5")
+	)
+	(wire
+		(pts
 			(xy 358.14 49.53) (xy 358.14 50.8)
 		)
 		(stroke
@@ -8751,6 +8767,16 @@
 			(justify left bottom)
 		)
 		(uuid "e2b6f274-fe87-4c98-b86e-f13ef0a85e07")
+	)
+	(label "+3.3V"
+		(at 17.78 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6056315-bea0-4413-8a8f-07e2db0b6e5e")
 	)
 	(label "SDA (I2C3)"
 		(at 46.99 113.03 180)
