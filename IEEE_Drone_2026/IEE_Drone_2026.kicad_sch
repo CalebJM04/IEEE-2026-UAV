@@ -7054,6 +7054,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 114.3) (xy 259.08 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47fee247-acb1-4444-a44d-b1b17f74be22")
+	)
+	(wire
+		(pts
 			(xy 93.98 95.25) (xy 97.79 95.25)
 		)
 		(stroke
@@ -8371,6 +8381,16 @@
 			(justify left bottom)
 		)
 		(uuid "4791d1ed-9287-4fad-9daf-1ffdbfd11232")
+	)
+	(label "+3.3V"
+		(at 259.08 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a23c30d-7ad8-4609-9dbf-b895afe1a01f")
 	)
 	(label "MISO"
 		(at 146.05 34.29 270)
