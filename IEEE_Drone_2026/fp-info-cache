@@ -1,4 +1,4 @@
-26655062230649627
+26674431209469664
 2n2222
 SOT95P237X111-3N
 
@@ -6,6 +6,13 @@ SOT95P237X111-3N
 0
 3
 3
+16vbig
+SKTHAHE010
+SKTHAHE010-2
+Switch
+0
+4
+4
 16vswitch
 SW_PTS810_SJM_250_SMTR_LFS
 
@@ -106273,6 +106280,41 @@ Varistor VF
 0
 2
 2
+bmp390
+10LGA_2X2X0p75_BOS
+
+BMP390 
+0
+10
+10
+bmp390
+ABMM2
+ABMM2
+Crystal or Oscillator
+0
+4
+4
+bmp390
+WE-XTAL_HC49_4HSMX
+
+
+0
+2
+2
+bmp390
+XCVR_SAM-M10Q-00B
+
+
+0
+20
+20
+bmp390
+XDCR_ICM-42605
+
+
+0
+14
+14
 downloads
 qrcodefoot
 
@@ -106280,6 +106322,41 @@ qrcodefoot
 0
 0
 0
+forICM
+10LGA_2X2X0p75_BOS
+
+BMP390 
+0
+10
+10
+forICM
+ABMM2
+ABMM2
+Crystal or Oscillator
+0
+4
+4
+forICM
+WE-XTAL_HC49_4HSMX
+
+
+0
+2
+2
+forICM
+XCVR_SAM-M10Q-00B
+
+
+0
+20
+20
+forICM
+XDCR_ICM-42605
+
+
+0
+14
+14
 switch
 SW_B3U-1000P
 
