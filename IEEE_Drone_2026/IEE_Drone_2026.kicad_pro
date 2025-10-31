@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.7
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,24 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_clearance|91061000|91346200|820b1e25-f601-4983-95de-7b34dc30dfb6|b73222b5-47bb-4f5c-af06-2e9b9e9c3ff4",
+          ""
+        ],
+        [
+          "hole_clearance|91061000|91346200|820b1e25-f601-4983-95de-7b34dc30dfb6|c7c74fff-060d-4d62-b607-062309dd6c74",
+          ""
+        ],
+        [
+          "hole_clearance|97161000|91346200|a9659bf8-2b64-4a28-b0af-f9e73afb9c1c|bd4b99d4-50d2-459e-bda9-227c5e593598",
+          ""
+        ],
+        [
+          "hole_clearance|97161000|91346200|a9659bf8-2b64-4a28-b0af-f9e73afb9c1c|c2fcbc78-08ba-4d0d-9060-78a7294805d7",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
