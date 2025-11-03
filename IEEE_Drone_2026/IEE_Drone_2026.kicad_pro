@@ -60,19 +60,31 @@
       ],
       "drc_exclusions": [
         [
-          "hole_clearance|127455000|149630000|bd4b99d4-50d2-459e-bda9-227c5e593598|a9659bf8-2b64-4a28-b0af-f9e73afb9c1c",
+          "copper_edge_clearance|128270000|167649000|d4126ecd-7ea7-4a1c-97ac-70bdd80b3eac|5ae1dbdd-522a-4564-b17e-999961200eab",
           ""
         ],
         [
-          "hole_clearance|127455000|149630000|c2fcbc78-08ba-4d0d-9060-78a7294805d7|a9659bf8-2b64-4a28-b0af-f9e73afb9c1c",
+          "copper_edge_clearance|128270000|168425150|d4126ecd-7ea7-4a1c-97ac-70bdd80b3eac|db3cbb1f-8c90-4acb-a2d2-fb0d6bad4cce",
           ""
         ],
         [
-          "hole_clearance|127455000|155730000|b73222b5-47bb-4f5c-af06-2e9b9e9c3ff4|820b1e25-f601-4983-95de-7b34dc30dfb6",
+          "copper_edge_clearance|129245600|167837000|d4126ecd-7ea7-4a1c-97ac-70bdd80b3eac|4d9cf2e6-adf1-4cf2-8c40-d19cdebadc98",
           ""
         ],
         [
-          "hole_clearance|127455000|155730000|c7c74fff-060d-4d62-b607-062309dd6c74|820b1e25-f601-4983-95de-7b34dc30dfb6",
+          "hole_clearance|127455000|149630000|a9659bf8-2b64-4a28-b0af-f9e73afb9c1c|bd4b99d4-50d2-459e-bda9-227c5e593598",
+          ""
+        ],
+        [
+          "hole_clearance|127455000|149630000|a9659bf8-2b64-4a28-b0af-f9e73afb9c1c|c2fcbc78-08ba-4d0d-9060-78a7294805d7",
+          ""
+        ],
+        [
+          "hole_clearance|127455000|155730000|820b1e25-f601-4983-95de-7b34dc30dfb6|b73222b5-47bb-4f5c-af06-2e9b9e9c3ff4",
+          ""
+        ],
+        [
+          "hole_clearance|127455000|155730000|820b1e25-f601-4983-95de-7b34dc30dfb6|c7c74fff-060d-4d62-b607-062309dd6c74",
           ""
         ]
       ],
@@ -525,7 +537,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../../Downloads/IEE_Drone_2026.step",
+      "step": "../../../../Downloads/IEE_Drone_2026new.stl",
       "svg": "",
       "vrml": ""
     },
