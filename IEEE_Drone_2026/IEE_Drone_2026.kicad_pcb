@@ -1226,8 +1226,9 @@
 		(descr "RKH0009A")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC1"
-			(at -0.212 -0.1 0)
+			(at 3.556 1.1574 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "dddb241b-3249-44f9-9817-188168665a57")
 			(effects
 				(font
@@ -1519,17 +1520,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "9024ebac-a390-45f1-9b3a-3d079544efc0")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.212 -0.1 0)
-			(layer "F.Fab")
-			(uuid "37ea5103-16c6-40a9-872b-45c44927267c")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-				)
-			)
 		)
 		(pad "1" smd rect
 			(at -1.85 -1.9 270)
@@ -2132,7 +2122,7 @@
 		(at 145.0594 133.858 -90)
 		(tags "BMP390 ")
 		(property "Reference" "U3"
-			(at -0.1524 0.2286 0)
+			(at 2.1844 -0.3302 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "791bf492-ede6-4e1c-b299-a2df7322ce7d")
@@ -7359,7 +7349,7 @@
 		(descr "LGA12")
 		(tags "lga land grid array")
 		(property "Reference" "U5"
-			(at 0 0 0)
+			(at 1.0168 -2.4641 90)
 			(layer "F.SilkS")
 			(uuid "8ee5b42d-9039-4567-869c-2cd406b3b01e")
 			(effects
@@ -9199,14 +9189,14 @@
 		(at 122.627 140.9192 90)
 		(descr "JST SH series connector, BM09B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST SH vertical")
-		(property "Reference" "RF1"
-			(at 0 3.4078 90)
+		(property "Reference" "RF"
+			(at 0.3048 3.6618 90)
 			(layer "F.SilkS")
 			(uuid "1e0718c7-3bc5-4da8-8be0-03e1ecea3937")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -11166,14 +11156,14 @@
 		(at 157.5816 140.208 -90)
 		(descr "JST SH series connector, BM04B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST SH vertical")
-		(property "Reference" "GPS1"
-			(at -0.1016 -0.762 90)
+		(property "Reference" "GPS"
+			(at -4.4196 -1.5748 180)
 			(layer "F.SilkS")
 			(uuid "cafd73ee-2edb-47cb-8649-d43a9a251f09")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -12205,14 +12195,14 @@
 		(at 135.5344 130.2512)
 		(descr "JST SH series connector, BM05B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST SH vertical")
-		(property "Reference" "Pixy1"
-			(at 0 3.5052 0)
+		(property "Reference" "Pixy"
+			(at -4.8768 -1.27 90)
 			(layer "F.SilkS")
 			(uuid "92d66d38-7ecf-4667-b1b9-b4675c37e7e7")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -12592,17 +12582,6 @@
 			(layer "F.Fab")
 			(uuid "d31987ae-b8bd-45be-ab2c-2a85bf9025f7")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 3.5092 0)
-			(layer "F.Fab")
-			(uuid "970a2a91-0590-44ef-bde9-a8cb53d71990")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -2 1.325)
 			(size 0.6 1.55)
@@ -12887,13 +12866,13 @@
 		(descr "JST SHL series connector, SM08B-SHLS-TF (http://www.jst-mfg.com/product/pdf/eng/eSHL.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST SHL horizontal")
 		(property "Reference" "ESC"
-			(at 0 0 0)
+			(at 6.4232 2.3136 270)
 			(layer "F.SilkS")
 			(uuid "e259ca60-d6d7-4f50-b5dc-2cae171eabdf")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -13804,6 +13783,90 @@
 			)
 		)
 	)
+	(gr_text "SCK"
+		(at 122.414284 143 -0)
+		(layer "B.SilkS")
+		(uuid "09220a60-37da-48f0-b061-d9a0b9b9b8a2")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "SCK"
+		(at 133.7188 129.2524 270)
+		(layer "B.SilkS")
+		(uuid "0e059b52-f684-4173-ac3c-539fa2945b9b")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "NC"
+		(at 148.1 164.1 90)
+		(layer "B.SilkS")
+		(uuid "1c8e31bb-65f4-4591-8728-fc3186852e04")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "TX"
+		(at 158.4 141.7 -0)
+		(layer "B.SilkS")
+		(uuid "23c49882-dfb2-40b0-8fc4-65817cc36b08")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "VDC"
+		(at 142.1 164.1 90)
+		(layer "B.SilkS")
+		(uuid "2fcdb6e4-3159-40a7-9362-45e3e47d9e71")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "GND"
+		(at 137.7188 129.4524 270)
+		(layer "B.SilkS")
+		(uuid "300fa327-3d41-47b9-b83d-7229a94f8847")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "MOSI"
+		(at 122.214284 140.9192 -0)
+		(layer "B.SilkS")
+		(uuid "39999106-9579-4b31-8e63-5f9a8be05888")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+	)
 	(gr_text "SWDIO"
 		(at 144.399 127.127 -0)
 		(layer "B.SilkS")
@@ -13816,10 +13879,94 @@
 			(justify mirror)
 		)
 	)
+	(gr_text "PB3"
+		(at 143.1 164.1 90)
+		(layer "B.SilkS")
+		(uuid "43d6c4be-6638-4917-b7f5-0b575dd3b6f4")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "PB11\n"
+		(at 122.114284 140.0556 -0)
+		(layer "B.SilkS")
+		(uuid "56d840a8-7938-4968-bd61-dccbbf79dcc8")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "3V3"
+		(at 122.414284 145 -0)
+		(layer "B.SilkS")
+		(uuid "5b4c5d02-59fa-4162-8763-57daae652cb0")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "PB13\n\n"
+		(at 122.114284 138.3 -0)
+		(layer "B.SilkS")
+		(uuid "5f11f52a-13c6-44d0-b303-e8d7b0a4438c")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+	)
 	(gr_text "GND"
 		(at 149.352 127.127 -0)
 		(layer "B.SilkS")
 		(uuid "6471f31d-beda-4bbe-90d7-d2599f529d07")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "3V3"
+		(at 158.4 138.7 -0)
+		(layer "B.SilkS")
+		(uuid "723a42d0-6a4a-4fb9-a703-31893dd0e9e5")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "PB14"
+		(at 144.1 164.1 90)
+		(layer "B.SilkS")
+		(uuid "72d7c859-94a0-46b7-a766-7e20d5b3c945")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "PB0"
+		(at 146.2 164.1 90)
+		(layer "B.SilkS")
+		(uuid "79273921-1e22-4ca7-9ef7-f927f5aa0ffe")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -13852,6 +13999,90 @@
 			(justify mirror)
 		)
 	)
+	(gr_text "GND"
+		(at 158.4 139.7 -0)
+		(layer "B.SilkS")
+		(uuid "94a45d1a-9e63-4759-99af-da6fd0de9d2c")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "MOSI"
+		(at 134.8188 129.1524 270)
+		(layer "B.SilkS")
+		(uuid "9e63612a-b248-43b2-95a1-db784588ba0b")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "GND"
+		(at 141.1 164.1 90)
+		(layer "B.SilkS")
+		(uuid "b1ded6e5-c578-4d00-b0d2-bb65e9afae57")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "PB1"
+		(at 145.2 164.1 90)
+		(layer "B.SilkS")
+		(uuid "b4793115-7245-4d1d-9273-eeba55853544")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "MISO"
+		(at 135.7532 129.1524 270)
+		(layer "B.SilkS")
+		(uuid "c5de92af-d89d-4a4c-a331-8267a45265e5")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "VDC"
+		(at 136.7188 129.1524 270)
+		(layer "B.SilkS")
+		(uuid "d08f5d24-ecf5-4910-82c9-baf52bf827a1")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "MISO"
+		(at 122.214284 141.9352 -0)
+		(layer "B.SilkS")
+		(uuid "df39af4a-59d8-4019-9e27-34a24d508a74")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+	)
 	(gr_text "Hermes\nMade by Caleb Murray\n"
 		(at 151.892 139.7 0)
 		(layer "B.SilkS")
@@ -13863,6 +14094,54 @@
 				(bold yes)
 			)
 			(justify left bottom mirror)
+		)
+	)
+	(gr_text "PB12\n"
+		(at 122.114284 139.0396 -0)
+		(layer "B.SilkS")
+		(uuid "ee2ddcff-3168-4cbd-a7cf-6aaaba454fd9")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "GND\n"
+		(at 122.414284 144.016 -0)
+		(layer "B.SilkS")
+		(uuid "f4855829-1ba9-41ec-8402-dcb8839d2a69")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "RX"
+		(at 158.4 140.7 -0)
+		(layer "B.SilkS")
+		(uuid "fa3ac9e7-07a4-4d04-af9a-19805f5669bd")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "NC"
+		(at 147.1 164.1 90)
+		(layer "B.SilkS")
+		(uuid "fb3477ce-3410-4fab-95eb-3eece9e94af5")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify mirror)
 		)
 	)
 	(segment
