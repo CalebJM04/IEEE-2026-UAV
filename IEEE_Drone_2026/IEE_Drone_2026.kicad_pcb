@@ -1732,7 +1732,7 @@
 		(at 145.0594 133.858 -90)
 		(tags "BMP390 ")
 		(property "Reference" "U3"
-			(at 1.8688 0.377 180)
+			(at 1.8688 0.377 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "22dd595f-ce2d-4342-8582-ec24fdf8fbcd")
@@ -12113,6 +12113,19 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "4b16ce9f-1a5e-4b53-b1f4-53a433498e46")
+	)
+	(gr_text "Good luck"
+		(at 142.2908 146.7104 0)
+		(layer "F.SilkS")
+		(uuid "905321c0-8334-4d92-bebb-3bf66e733402")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
 	)
 	(segment
 		(start 152.9875 144.25)
