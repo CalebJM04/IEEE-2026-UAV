@@ -1825,7 +1825,7 @@
 		(at 145.0594 133.858 -90)
 		(tags "BMP390 ")
 		(property "Reference" "U3"
-			(at 1.8688 0.377 0)
+			(at 0.762 2.3114 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "22dd595f-ce2d-4342-8582-ec24fdf8fbcd")
