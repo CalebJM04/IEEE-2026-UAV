@@ -12751,7 +12751,7 @@
 		(uuid "d7cdfbce-894c-4e59-8c71-0064c8bdb2c7")
 	)
 	(gr_text "Good luck"
-		(at 142.2908 146.7104 0)
+		(at 142.2908 146.558 0)
 		(layer "F.SilkS")
 		(uuid "905321c0-8334-4d92-bebb-3bf66e733402")
 		(effects
