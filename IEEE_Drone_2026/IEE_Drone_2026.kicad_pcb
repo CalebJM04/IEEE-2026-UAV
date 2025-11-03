@@ -12127,6 +12127,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "Hermes\nMade by Caleb Murray\n"
+		(at 152.2984 132.1308 0)
+		(layer "B.SilkS")
+		(uuid "e777d33f-7e36-44bd-9f2e-766abb5ec563")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(segment
 		(start 152.9875 144.25)
 		(end 154.2 145.4625)
