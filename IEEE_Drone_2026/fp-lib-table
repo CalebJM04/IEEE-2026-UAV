@@ -7,4 +7,5 @@
   (lib (name "16vbig")(type "KiCad")(uri "${KIPRJMOD}/LIB_SKTHAHE010/SKTHAHE010/KiCad")(options "")(descr ""))
   (lib (name "bmp390")(type "KiCad")(uri "${KIPRJMOD}/Dependencies/footprints")(options "")(descr ""))
   (lib (name "forICM")(type "KiCad")(uri "${KIPRJMOD}/Dependencies/footprints")(options "")(descr ""))
+  (lib (name "schottky")(type "KiCad")(uri "${KIPRJMOD}/Dependencies/SS16_E3_5AT/KiCADv6/footprints.pretty")(options "")(descr ""))
 )

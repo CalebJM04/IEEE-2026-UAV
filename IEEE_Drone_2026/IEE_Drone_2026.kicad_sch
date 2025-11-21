@@ -2620,6 +2620,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -5903,13 +6053,13 @@
 	)
 	(text "is this VDC IN?\n"
 		(exclude_from_sim no)
-		(at 200.66 42.672 0)
+		(at 200.66 69.342 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "e0f72e8c-efe8-4834-b2d7-31cf68fb4244")
+		(uuid "7f912751-e03e-4c53-8c8c-2f3bff3fa730")
 	)
 	(text "VDC? if not >10\n"
 		(exclude_from_sim no)
@@ -6267,7 +6417,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 190.5) (xy 87.63 185.42)
+			(xy 87.63 190.5) (xy 87.63 175.26)
 		)
 		(stroke
 			(width 0)
@@ -6457,16 +6607,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 25.4) (xy 207.01 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19c9ad2b-c124-43a2-bc46-c65c28031cb5")
-	)
-	(wire
-		(pts
 			(xy 374.65 127) (xy 374.65 125.73)
 		)
 		(stroke
@@ -6547,6 +6687,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 175.26) (xy 105.41 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25175004-1335-4693-a072-2ef2c1cec37a")
+	)
+	(wire
+		(pts
 			(xy 340.36 213.36) (xy 342.9 213.36)
 		)
 		(stroke
@@ -6554,16 +6704,6 @@
 			(type default)
 		)
 		(uuid "27cf841f-e571-486b-97a6-48f395f1278f")
-	)
-	(wire
-		(pts
-			(xy 200.66 27.94) (xy 200.66 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "298fe90d-db75-4cb4-88dd-f5462c86f8ae")
 	)
 	(wire
 		(pts
@@ -6714,16 +6854,6 @@
 			(type default)
 		)
 		(uuid "36f3eb41-7169-46d2-bac5-8270fef76a1a")
-	)
-	(wire
-		(pts
-			(xy 87.63 185.42) (xy 92.71 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3720ffc0-c4fb-42a5-99aa-2fe527e9b4fb")
 	)
 	(wire
 		(pts
@@ -7427,6 +7557,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 27.94) (xy 200.66 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86e0ca09-12f4-497a-864a-cdb12ab735d0")
+	)
+	(wire
+		(pts
 			(xy 228.6 87.63) (xy 234.95 87.63)
 		)
 		(stroke
@@ -7734,16 +7874,6 @@
 			(type default)
 		)
 		(uuid "acb1e7bc-d6b4-42e9-8cd0-15ce4f49477e")
-	)
-	(wire
-		(pts
-			(xy 207.01 27.94) (xy 200.66 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad4952e4-bc82-4da8-a7d8-e7a2942de017")
 	)
 	(wire
 		(pts
@@ -8177,6 +8307,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 25.4) (xy 207.01 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e665e731-f513-45fd-bc95-0ce95a487d07")
+	)
+	(wire
+		(pts
 			(xy 64.77 228.6) (xy 64.77 232.41)
 		)
 		(stroke
@@ -8184,6 +8324,16 @@
 			(type default)
 		)
 		(uuid "e927cf53-524c-474f-aabd-54fdc60ed4f7")
+	)
+	(wire
+		(pts
+			(xy 200.66 27.94) (xy 200.66 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb1c252e-f7f0-4f0b-9ba8-4835f4709ead")
 	)
 	(wire
 		(pts
@@ -8524,6 +8674,16 @@
 			(justify left bottom)
 		)
 		(uuid "205d3ce8-8ea3-4177-aca5-9d1a8c6a957d")
+	)
+	(label "Pin 2"
+		(at 200.66 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2684b361-1513-4379-b085-0b289ffd5707")
 	)
 	(label "PB3"
 		(at 97.79 118.11 0)
@@ -9135,6 +9295,16 @@
 		)
 		(uuid "d398d4ea-a640-4c8b-ade4-0f1d4b17b5d2")
 	)
+	(label "Pin 2"
+		(at 200.66 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d892363d-3181-4e1c-9882-6c34e899ed64")
+	)
 	(label "PB4"
 		(at 97.79 120.65 0)
 		(effects
@@ -9187,7 +9357,7 @@
 	)
 	(symbol
 		(lib_id "power:+VDC")
-		(at 92.71 185.42 0)
+		(at 105.41 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9196,7 +9366,7 @@
 		(fields_autoplaced yes)
 		(uuid "0720fdde-41c0-4193-87f1-ddd9de0c9381")
 		(property "Reference" "#PWR016"
-			(at 92.71 187.96 0)
+			(at 105.41 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9205,7 +9375,7 @@
 			)
 		)
 		(property "Value" "+VDC"
-			(at 92.71 177.8 0)
+			(at 105.41 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9213,7 +9383,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 185.42 0)
+			(at 105.41 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9222,7 +9392,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 185.42 0)
+			(at 105.41 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9231,7 +9401,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+VDC\""
-			(at 92.71 185.42 0)
+			(at 105.41 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11075,6 +11245,76 @@
 			(project "IEE_Drone_2026"
 				(path "/3847996a-ac9c-4544-b9d3-a55cb82580af"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 200.66 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c06a0a7-e63c-4c2e-99b7-2d5f68d5e54b")
+		(property "Reference" "D2"
+			(at 203.2 53.6574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 203.2 56.1974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "schottky:DIODE_DO214AC"
+			(at 200.66 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 200.66 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "488f777c-37b4-466b-bc50-ae399db5cac1")
+		)
+		(pin "1"
+			(uuid "0e933c51-a949-44b2-a598-5ee7a6e84cd1")
+		)
+		(instances
+			(project "IEE_Drone_2026"
+				(path "/3847996a-ac9c-4544-b9d3-a55cb82580af"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -14346,7 +14586,7 @@
 	)
 	(symbol
 		(lib_id "power:+VDC")
-		(at 200.66 31.75 180)
+		(at 200.66 58.42 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14355,7 +14595,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7ecb27d-bbf8-4d8e-9a00-4bd21226593a")
 		(property "Reference" "#PWR01"
-			(at 200.66 29.21 0)
+			(at 200.66 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14364,7 +14604,7 @@
 			)
 		)
 		(property "Value" "+VDC"
-			(at 200.66 39.37 0)
+			(at 200.66 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14372,7 +14612,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 31.75 0)
+			(at 200.66 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14381,7 +14621,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 31.75 0)
+			(at 200.66 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14390,7 +14630,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+VDC\""
-			(at 200.66 31.75 0)
+			(at 200.66 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15963,6 +16203,74 @@
 			(project "IEE_Drone_2026"
 				(path "/3847996a-ac9c-4544-b9d3-a55cb82580af"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 91.44 175.26 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f547fb7b-c537-4bc6-9656-edc276cfc2f0")
+		(property "Reference" "D1"
+			(at 91.7575 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 91.7575 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "schottky:DIODE_DO214AC"
+			(at 91.44 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 91.44 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fc8b0d89-e168-48e7-87eb-2b0cea99e3c4")
+		)
+		(pin "1"
+			(uuid "75464055-65b7-4292-847f-be8678f4c680")
+		)
+		(instances
+			(project ""
+				(path "/3847996a-ac9c-4544-b9d3-a55cb82580af"
+					(reference "D1")
 					(unit 1)
 				)
 			)

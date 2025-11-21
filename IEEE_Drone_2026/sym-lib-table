@@ -9,4 +9,5 @@
   (lib (name "ICM-42605")(type "KiCad")(uri "${KIPRJMOD}/Dependencies/symbols/ICM-42605.kicad_sym")(options "")(descr ""))
   (lib (name "bmp390")(type "KiCad")(uri "${KIPRJMOD}/Dependencies/symbols/2025-10-25_19-28-05.kicad_sym")(options "")(descr ""))
   (lib (name "10mq")(type "KiCad")(uri "${KIPRJMOD}/Dependencies/symbols/SAM-M10Q-00B.kicad_sym")(options "")(descr ""))
+  (lib (name "schotsky")(type "KiCad")(uri "${KIPRJMOD}/Dependencies/SS16_E3_5AT/KiCADv6/2025-11-21_15-34-15.kicad_sym")(options "")(descr ""))
 )
